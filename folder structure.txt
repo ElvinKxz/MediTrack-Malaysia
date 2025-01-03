@@ -1,0 +1,23 @@
+MediTrack Malaysia/
+├── app/
+│   ├── ui.R
+│   ├── server.R
+│   ├── global.R
+│   ├── db/
+│   │   ├── healthcare_data.sqlite
+│   ├── data/
+│   │   ├── User_Signup_Login_Data.xlsx
+│   │   ├── Infectious_Disease_Data.xlsx
+│   ├── styles/
+│   │   ├── custom.css
+│   ├── modules/
+│       ├── dashboard_module.R
+│       ├── filter_module.R
+│       ├── visualization_module.R
+├── utils/
+│   ├── database_handler.R
+├── tests/
+│   ├── test_ui.R
+│   ├── test_server.R
+│   ├── test_database_handler.R
+└── app.R
